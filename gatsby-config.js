@@ -7,4 +7,9 @@
 module.exports = {
   /* Your site config here */
   plugins: [],
+  siteMetadata: {
+    title: 'Web Alchemist',
+    description: 'web dev portfolio',
+    copyright: 'This webiste is copycright 2021 Web Alchemist'
+  }
 }
