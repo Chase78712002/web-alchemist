@@ -5,7 +5,6 @@ import * as styles from '../styles/home.module.css'
 
 
 export default function Home({data}) {
-  console.log('data', data);
   const { title, description, copyright } = data.site.siteMetadata
   return (
     <Layout>
@@ -28,7 +27,7 @@ export default function Home({data}) {
 }
 
 export const query = graphql`
-  query MyQuery {
+  query PageQuery {
     site {
       siteMetadata {
         copyright
